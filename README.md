@@ -20,11 +20,11 @@ Open the directory with all python folders in terminal.
 
 Step 1: py -m venv .venv
 
-Step 2: \.venv\Scripts\python.exe -m pip install --upgrade pip
+Step 2: .\.venv\Scripts\python.exe -m pip install --upgrade pip
 
-Step 3: \.venv\Scripts\python.exe -m pip install PySide6 matplotlib numpy pyinstaller
+Step 3: .\.venv\Scripts\python.exe -m pip install PySide6 matplotlib numpy pyinstaller
 
-Step 4: \.venv\Scripts\pyinstaller.exe --clean --onedir --windowed --name Boltu --icon Boltu.ico --add-data "Boltu.ico;." --paths src src\boltu_gui.py
+Step 4: .\.venv\Scripts\pyinstaller.exe --clean --onedir --windowed --name Boltu --icon Boltu.ico --add-data "Boltu.ico;." --paths src src\boltu_gui.py
 
 ----------------------TO RUN BOLTU AS AN APP----------------------
 
